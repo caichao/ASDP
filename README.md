@@ -13,9 +13,8 @@ The above challenges make it difficult to build cross-platform support on existi
 To this end, we present our Acoustic Software Defined Radio (ASDR) --- a versatile communication and sensing platform. Our ASDR is built on a plug-and-play acoustic module which costs less than 10 dollars for the Raspberry Pi card PC. It supports stereo recording with up to 96 kHz sampling rate and three channels for playing the audio signals, each channel of which is boosted by a 3W power amplifier. In the acoustic module, we support hot plug for acoustic sensors and have designed plug-and-play sensor modules with or without AGC. The sensor modules are purposefully chosen to optimize the performance in the preferable inaudible bandwidth. We build our hardware compatible with lots of existing drivers or application utilities, making it plausible for developers who have less programming experience. As a matter of fact, for offline processing, one only needs to make a few clicks in order to get the raw audio samples. To configure the hardware settings, one can use existing software packets with graphic settings, which significantly reduces the efforts for hardware-dependent tuning. Also, we provide abundant APIs and build sufficient examples on our ASDR platforms, demonstrating the efficiency in developing acoustic sensing applications.
 
 # Acoustic Software Defined Radio Hardware Architecture
-<center>![Hardware architecture](https://github.com/caichao/Acoustic-Software-Defined-Radios/blob/master/hardware.png)</center> 
 
-
+<div align=center><src="https://github.com/caichao/Acoustic-Software-Defined-Radios/blob/master/hardware.png"/></div>
 
 [1]. Bing Zhou, Mohammed Elbadry, Ruipeng Gao, and Fan Ye. 2017. BatMapper: Acoustic Sensing Based Indoor Floor Plan Construction Using Smartphones. In Proceedings of the 15th Annual International Conference on Mobile Systems, Applications, and Services (MobiSys '17). ACM, New York, NY, USA, 42-55. DOI: https://doi.org/10.1145/3081333.3081363
 
