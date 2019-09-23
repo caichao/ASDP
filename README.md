@@ -33,7 +33,7 @@ The acoustic module utilizes TDA2822M for its low supply power voltages, which c
 
 # Installation Guides
 
-Method one: use our image provides here and you can run all the code in our ASDR repository
+Method one: use our image provides ![here](http:www.baidu.com) and you can run all the code in our ASDR repository
 
 Method two: follow the steps below
 
