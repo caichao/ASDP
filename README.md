@@ -14,7 +14,7 @@ To this end, we present our Acoustic Software Defined Radio (ASDR) --- a versati
 
 # Acoustic Software Defined Radio Hardware Architecture
 
-<div align=center>![ASDR hardware architecture](https://github.com/caichao/Acoustic-Software-Defined-Radios/blob/master/hardware.png)
+![ASDR hardware architecture](https://github.com/caichao/Acoustic-Software-Defined-Radios/blob/master/hardware.png)
 
  
 [1]. Bing Zhou, Mohammed Elbadry, Ruipeng Gao, and Fan Ye. 2017. BatMapper: Acoustic Sensing Based Indoor Floor Plan Construction Using Smartphones. In Proceedings of the 15th Annual International Conference on Mobile Systems, Applications, and Services (MobiSys '17). ACM, New York, NY, USA, 42-55. DOI: https://doi.org/10.1145/3081333.3081363
