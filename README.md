@@ -33,9 +33,28 @@ The acoustic module utilizes TDA2822M for its low supply power voltages, which c
 
 # Installation Guides
 
-Method one: use our image provides ![here](http:www.baidu.com) and you can run all the code in our ASDR repository
+**Method one**: use our image provides ![here](http:www.baidu.com) and you can run all the code in our ASDR repository
 
-Method two: follow the steps below
+**Method two**: you need to install drivers for GPU/neon/WM8731 
+
+steps to install the drivers for WM8731:
+
+1. 
+
+2. 
+
+3. 
+
+steps to install the drivers for GPU:
+
+1. 
+
+2.
+
+3. 
+
+steps to install the drivers for WM8731:
+
 
  
 [1]. Bing Zhou, Mohammed Elbadry, Ruipeng Gao, and Fan Ye. 2017. BatMapper: Acoustic Sensing Based Indoor Floor Plan Construction Using Smartphones. In Proceedings of the 15th Annual International Conference on Mobile Systems, Applications, and Services (MobiSys '17). ACM, New York, NY, USA, 42-55. DOI: https://doi.org/10.1145/3081333.3081363
