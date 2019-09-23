@@ -25,6 +25,13 @@ The codec mounted on the acoustic module is WM8731 which features low power ster
 
 The acoustic module utilizes TDA2822M for its low supply power voltages, which could be 1.8 V. Also, it is a class-AB audio power amplifier which introduce less signal distortions to the inputs. The microphone for the acoustic module is carefully chosen. Apart from high sensitivity and good signal-to-noise-ratio (SNR), we also make the microphone module to have two special properties: flat frequency response in most frequency band and better sensitivity in the preferable inaudible bandwidth (above 18 kHz). Such good properties could help address the frequency selected problem [4] and guarantee better performance for acoustic sensing applications. These considerations lead us to a choice of INMP411, the frequency response of which is shown in Fig.~\ref{fig:mic frequency response}. It can be observed that the frequency response is quite flat between 100 Hz to 10 kHz and after 10 kHz which is the preferable bandwidth for most acoustic sensing applications, the frequency response is significantly improved. Such a nice frequency response makes INMP411 the best choice for our microphone modules. It should be noted that our microphone modules have two different types: one is transistor-based which has fixed 140 X gain and one uses MAX9814 AGC which provides programmable gain. Such a design makes it easier to disable AGC, which has become a prerequisite for profiling based acoustic sensing applications.
 
+# Working Mode: Offline mode or online mode
+Offline mode: One can use existing utilities or programs to capture or play expected signals and then analyze them offline
+   Recommended utilities: audacity, arecord, aplay, omxplayer, mplayer
+
+Online mode: See the instantenous results of the performed activities on the acoustic signals
+   Our matlab code snippet
+
  
 [1]. Bing Zhou, Mohammed Elbadry, Ruipeng Gao, and Fan Ye. 2017. BatMapper: Acoustic Sensing Based Indoor Floor Plan Construction Using Smartphones. In Proceedings of the 15th Annual International Conference on Mobile Systems, Applications, and Services (MobiSys '17). ACM, New York, NY, USA, 42-55. DOI: https://doi.org/10.1145/3081333.3081363
 
