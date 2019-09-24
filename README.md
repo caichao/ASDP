@@ -28,6 +28,12 @@ The acoustic module utilizes TDA2822M (replaced with PAM8406 in the second versi
 The schematic is shown in the following figure:
 ![Hardware Schematic](https://github.com/caichao/Acoustic-Software-Defined-Radios/blob/master/schematic-pcb/v1.1.png)
 
+The pictures of the prototype are shown in the following figures:
+![1](https://github.com/caichao/Acoustic-Software-Defined-Radios/blob/master/pics/photo1.jpg)
+![2](https://github.com/caichao/Acoustic-Software-Defined-Radios/blob/master/pics/photo2.jpg)
+![3](https://github.com/caichao/Acoustic-Software-Defined-Radios/blob/master/pics/photo3.jpg)
+![4](https://github.com/caichao/Acoustic-Software-Defined-Radios/blob/master/pics/photo4.jpg)
+
 # Demonstrative Applications:
 - Realtime gesture recognition
 - Aerial acoustic communication
