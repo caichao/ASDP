@@ -42,41 +42,52 @@ The pictures of the prototype are shown in the following figures:
 
 # Installation Guides
 
-**Method one**: use our image provides ![here](http:www.baidu.com) and you can run all the code in our ASDR repository
+**Method one**: use our image provides [here](http:www.baidu.com) and you can run all the code in our ASDR repository
 
 **Method two**: you need to install drivers for GPU/neon/WM8731 
 
 steps to install the drivers for WM8731:
 
-1. go to here to fetch bcm2835 drivers ![bcm2835 drivers](https://www.airspayce.com/mikem/bcm2835/) and install using the following steps:
+1. go to here to fetch bcm2835 drivers [bcm2835 drivers](https://www.airspayce.com/mikem/bcm2835/) and install using the following steps:
 
 ``` 
+sudo apt-get update
 upload bcm2835-1.52.tar.gz to PI
-
 tar zxvf bcm2835-1.52.tar.gz
-
 cd bcm2835-1.52
-
 ./configure
-
 sudo make check
-
 sudo make install
 ``` 
 
-2. 
+2. upload the files drivers_for_audios to anywhere on the pi
+```
+cd drivers_for_audios
+chmod +x acousticSetup.sh acousticSetup2.sh
+sh acousticSetup.sh
+sh acousticSetup2.sh
+```
+It should be noted that you should enable SPI on the PI. This can be done by running  'sudo raspi-config' and you can graphically enable it. 
 
-3. 
+steps to install the neon drivers:
+1. build the static and dynamic libs:
+```
+mkdir neon
+cd neon
+git clone https://github.com/projectNe10/Ne10           # clone the source code from the remote repository
+sudo apt-get install cmake
+cd $NE10_PATH                                           # change directory to the location of the Ne10 source
+mkdir build && cd build                                 # create the build directory and navigate into it
+export NE10_LINUX_TARGET_ARCH=armv7                     # set the target architecture (can also be aarch64)
+cmake -DGNULINUX_PLATFORM=ON                            # run cmake to generate the build files
+make
 
-steps to install the drivers for GPU:
-
-1. 
-
-2.
-
-3. 
-
-steps to install the drivers for WM8731:
+export NE10_LINUX_TARGET_ARCH=armv7 
+cmake -DNE10_BUILD_SHARED=ON
+make
+```
+2. copy the generated libs files to /usr/local/lib
+3. You can build your project that use neon API now if you add the absolute build directory '-l /home/xx/pi/neon/Ne10/inc'
 
 
  
