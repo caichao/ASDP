@@ -49,12 +49,19 @@ The pictures of the prototype are shown in the following figures:
 steps to install the drivers for WM8731:
 
 1. go to here to fetch bcm2835 drivers ![bcm2835 drivers](https://www.airspayce.com/mikem/bcm2835/) and install using the following steps:
+
 upload bcm2835-1.52.tar.gz to PI
+
 tar zxvf bcm2835-1.52.tar.gz
+
 cd bcm2835-1.52
+
 ./configure
+
 sudo make check
+
 sudo make install
+
 2. 
 
 3. 
