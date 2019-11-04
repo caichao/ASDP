@@ -103,13 +103,13 @@ Maintainer to this repository (No particular order):
 
 [1]. Pei Rao, Master, Huazhong University of Science and Technology. raopei1994@163.com
 
-[2]. Yan Yan, Master, Huazhong University of Science and Technology. 
+[2]. Yan Yan, Master, Huazhong University of Science and Technology. 1063422772@qq.com
 
-[3]. Peng Wang, Master, Huazhong University of Science and Technology. 
+[3]. Peng Wang, Master, Huazhong University of Science and Technology. somewap@qq.com
 
-[4]. Liyuan Ye, Master, Huazhong University of Science and Technology. 
+[4]. Liyuan Ye, Master, Huazhong University of Science and Technology. yeliyuan1997@qq.com
 
-[5]. Meichen An, Master, Huazhong University of Science and Technology. 
+[5]. Meichen An, Master, Huazhong University of Science and Technology. m201972133@hust.edu.com
 
 [6]. Chao Cai, Ph.D, Nanyang Technological School. caichao08@gmail.com
 
