@@ -98,3 +98,18 @@ make
 [3]. Tim Kaler, John Patrick Lynch, Timothy Peng, Lenin Ravindranath, Arvind Thiagarajan, Hari Balakrishnan, and Sam Madden. 2010. Code in the air: simplifying sensing on smartphones. In Proceedings of the 8th ACM Conference on Embedded Networked Sensor Systems (SenSys '10). ACM, New York, NY, USA, 407-408. DOI=http://dx.doi.org/10.1145/1869983.1870046
 
 [4]. Wenguang Mao, Zaiwei Zhang, Lili Qiu, Jian He, Yuchen Cui, and Sangki Yun. 2017. Indoor Follow Me Drone. In Proceedings of the 15th Annual International Conference on Mobile Systems, Applications, and Services (MobiSys '17). ACM, New York, NY, USA, 345-358. DOI: https://doi.org/10.1145/3081333.3081362
+
+Maintainer to this repository (No particular order): 
+
+[1]. Pei Rao, Master, Huazhong University of Science and Technology. raopei1994@163.com
+
+[2]. Yan Yan, Master, Huazhong University of Science and Technology. 
+
+[3]. Peng Wang, Master, Huazhong University of Science and Technology. 
+
+[4]. Liyuan Ye, Master, Huazhong University of Science and Technology. 
+
+[5]. Meichen An, Master, Huazhong University of Science and Technology. 
+
+[6]. Chao Cai, Ph.D, Nanyang Technological School. caichao08@gmail.com
+
