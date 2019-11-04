@@ -14,8 +14,8 @@ To this end, we present our Acoustic Software Defined Radio (ASDR) --- a versati
 
 # Acoustic Software Defined Radio Hardware Architecture
 
-![ASDR hardware architecture](https://github.com/caichao/Acoustic-Software-Defined-Radios/blob/master/pics/hardware.png)
-Architecture (V1.0)
+![ASDR hardware architecture](https://github.com/caichao/Acoustic-Software-Defined-Radios/blob/master/pics/hardware3.png)
+Architecture (V1.3)
 
 Major components: Raspberry Pi, INMP411, TPS54332, WM8731
 
