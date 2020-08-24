@@ -34,6 +34,28 @@ The pictures of the prototype are shown in the following figures:
 ![3](https://github.com/caichao/Acoustic-Software-Defined-Radios/blob/master/pics/photo3.jpg)
 ![4](https://github.com/caichao/Acoustic-Software-Defined-Radios/blob/master/pics/photo4.jpg)
 
+
+# Acoustic Software Defined Radio Software Architecture
+![Hardware Schematic](https://github.com/caichao/Acoustic-Software-Defined-Radios/blob/master/pics/software.png)
+
+The software framework consists of four layers: driver, hardware abstraction, middleware, and user space.
+
+Driver Layer: This layer involves a specific device driver to fire up the codec chip WM8731. To ease efforts, We build a script for easy installation. Since this driver is available in kernel sources, we simply build a script to configure it. The driver interfaces with the wrapper module in the hardware abstraction layer. Also, it communicates with shell scripts in the middleware via existing utilities including aplay and arecord.
+
+Hardware Abstract Layer: This layer has a wrapper module to interface with upper layer. It loads a readable JSON-format configuration script from user space to configure the audio hardware. This configuration script can specify the properties of audio hardware including sampling rate, number of channels, bit resolutions, etc.
+
+Middleware: This layer contains three major components, namely shell scripts, communication modules, and a numerical library. The shell scripts serve as communication channels to dispatch commands from the GUI to the hardware. It allows for playing and recording audio profiles by invoking existing utilities such as aplay and arecord through system calls. In this way, the shell scripts help to enable acoustic sensing in an offline manner, as well as to debug the hardware.
+
+The communication modules in the middleware offer three interfaces to bridge the gaps between different programming languages or to delegate the processing tasks to other hosts. First, one can utilize the socket to interface with other target hosts or programming languages. In particular, a client-side MATLAB script, either running locally or remotely, together with a local server-side socket script are provided, assisting the visualization of the processing results in real-time. Since the above socket based scripts accomplish the most cumbersome task of extracting raw audio samples, one can focus on algorithm designs and save efforts on platform details. Second, we build a hybrid of C and Java programming environment via Java Native Interface (establishing another channel for the GUI to communication with hardware, emulating Android and assisting to debug Native Development Kit APIs (infeasible to achieve on Android hosts). 
+
+The numerical library contains utility functions for fast prototyping. It has basic signal processing methods such as i) waveform reshaping to mitigate audible noise when transmitting signals in inaudible frequency range, ii) preamble detection algorithms crucial for most acoustic sensing applications, and iii) robust decoding strategies.
+Specifically, we propose a new preamble detection algorithm to effectively handle the near-far effect, hardware heterogeneity, and multipath problem (we refer to Section~\ref{sec:preamble detection} for further details).
+In addition, the library also includes efficient numerical utilities built upon two special hardware architectures, namely Neon and GPU, to speed up the program. Both the communication modules and numerical library serve as major components to support user application developments.
+
+User Space: In the user space, ASDR offers a user-friendly Java-based GUI and a readable JSON-format script. The GUI offers various ways for acoustic sensing developments. For instance, it allows recording and playing audio signals via shell scripts by invoking arecord and aplay, respectively, for offline processing. This can also be achieved by running audacity, a compatible professional audio utility. In addition, it provides a function generator for modulation and an oscilloscope for display. Specifically, it can generate popular signals such as pure tone or chirp signals, and it can also visualize the FFT results or spectrogram of received signals in real-time. These functions provided by the GUI can help debug the ASDR hardware and also serve as good utilities for beginners. Moreover, the GUI can read/write the JSON-format script that offers another way for advanced developers to easily access and configure the hardware. 
+It should be noted that the offline processing method could not be readily enabled by running available applications on commodity smartphones.
+Those applications mostly have "filters" inside, introducing equalization effects that further deteriorate the frequency selectivity problem, rendering them unsuitable for acoustic sensing development.
+
 # Demonstrative Applications:
 - Realtime gesture recognition
 - Aerial acoustic communication
