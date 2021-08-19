@@ -208,7 +208,7 @@ pages= {1-24}
 ```
 
 AALTS: Asynchronous Acoustic Localization and Tracking for Mobile Targets
-We build a real-time mobile phone based acoustic tracking system. We open-source all related files including Android app, backend Jave-based serve, and C code on Pi. 
+We build a real-time mobile phone based acoustic tracking system. We open-source all related files including Android app, backend Jave-based serve, and C code on Pi. Visit [here](https://caichao.github.io/proj_dirs/aalts.html) for more information. 
 
 ```
 @ARTICLE{AALTS, 
