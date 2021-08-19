@@ -135,7 +135,7 @@ Maintainer to this repository (No particular order):
 
 [6]. Chao Cai, Ph.D, Nanyang Technological University. caichao08@gmail.com
 
-# Other works related to ASDP platform. 
+# Other Works Related to ASDP. 
 
 SST: Software Sonic Thermometer using Acoustic-enabled IoT Devices
 Our algorithm can use the relationship between sound propagation speed and temperature for ambient temperature sensing. See [here](https://caichao.github.io/proj_dirs/sst.html) for more information.
