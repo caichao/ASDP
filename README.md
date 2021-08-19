@@ -135,4 +135,90 @@ Maintainer to this repository (No particular order):
 
 [6]. Chao Cai, Ph.D, Nanyang Technological University. caichao08@gmail.com
 
+# Other works related to ASDP platform. 
+
+SST: Software Sonic Thermometer using Acoustic-enabled IoT Devices
+Our algorithm can use the relationship between sound propagation speed and temperature for ambient temperature sensing. See [here](https://caichao.github.io/proj_dirs/sst.html) for more information.
+
+```
+@ARTICLE{SST, 
+  author={Cai, Chao and Pu, Henglin and Hu, Menglan and Zheng, Rong and Luo, Jun},
+  journal={IEEE Transactions on Mobile Computing}, 
+  title="{SST: Software Sonic Thermometer on Acoustic-Enabled IoT Devices}", 
+  year={2021},
+  volume={20},
+  number={5},
+  pages={2067-2079}
+ }
+```
+
+AcuTe: Acoustic Thermometer Empowered by a Single Smartphone
+We design a new algorithm that enables a single smartphone to sense ambient temperature. See [here](https://caichao.github.io/proj_dirs/acute.html) for more information. 
+
+```
+@inproceedings{AcuTe,
+author = {Cai, Chao and Chen, Zhe and Pu, Henglin and Ye, Liyuan and Hu, Menglan and Luo, Jun},
+title = "{AcuTe: Acoustic Thermometer Empowered by a Single Smartphone}",
+booktitle = {Proceedings of the 18th Conference on Embedded Networked Sensor Systems}, 
+year = {2020},
+pages = {28–41},
+numpages = {14},
+}
+```
+
+AcuTe+: Active Acoustic Sensing for Hearing Temperature under Acoustic Interference
+A more robust version of AcuTe that allows temperature sensing under severe background interference. 
+
+```
+@ARTICLE{AcuTePlus,
+  author={Cai, Chao and Pu, Henglin and Ye, Liyuan and Jiang, Hongbo and Luo, Jun},
+  journal={IEEE Transactions on Mobile Computing}, 
+  title={Active Acoustic Sensing for Hearing Temperature under Acoustic Interference}, 
+  year={2021},
+  volume={},
+  number={},
+  pages={1-1},
+  doi={10.1109/TMC.2021.3096792}}
+```
+
+HRCSS: Boosting Chirp Signal Based Aerial Acoustic Communication under Dynamic Channel Conditions
+We develop a new loose orthogonality condition for chirp signal based aerial acoustic communication. 
+
+```
+@ARTICLE{HRCSS,
+  author={Cai, Chao and Zhe, Chen and Luo, Jun and Pu, Henglin and Hu, Menglan and Zheng, Rong},
+  journal={IEEE Transactions on Mobile Computing}, 
+  title="{Boosting Chirp Signal Based Aerial Acoustic Communication under Dynamic Channel Conditions}", 
+  year={2021},
+  pages={1-12},
+  doi={10.1109/TMC.2021.3051665}}
+```
+
+We Hear Your PACE - Passive Acoustic Localization of Multiple Walking Persons
+We develop the first passive acoustic localization, tracking, and identification system. For more information, please visit [here](https://caichao.github.io/proj_dirs/pace.html)
+
+```
+@article{PACE,
+author = {Cai, Chao and Pu, Henglin and Wang, Peng and Chen, Zhe and Luo, Jun},
+title = "{We Hear Your PACE: Passive Acoustic Localization of Multiple Walking Persons}",
+year = {2021},
+journal = {Proc. ACM Interact. Mob. Wearable Ubiquitous Technol.},
+pages= {1-24}
+}
+```
+
+AALTS: Asynchronous Acoustic Localization and Tracking for Mobile Targets
+We build a real-time mobile phone based acoustic tracking system. We open-source all related files including Android app, backend Jave-based serve, and C code on Pi. 
+
+```
+@ARTICLE{AALTS, 
+  author={C. {Cai} and R. {Zheng} and J. {Li} and L. {Zhu} and H. {Pu} and M. {Hu}},
+  journal={IEEE Internet of Things Journal}, 
+  title="{Asynchronous Acoustic Localization and Tracking for Mobile Targets}", 
+  year={2020},
+  volume={7},
+  number={2},
+  pages={830-845}
+  }
+```
 
