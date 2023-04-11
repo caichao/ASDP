@@ -64,7 +64,7 @@ Those applications mostly have "filters" inside, introducing equalization effect
 
 # Installation Guides
 
-**Method one**: use our image provides [here](http:www.baidu.com) and you can run all the code in our ASDP repository
+**Method one**: use our image provides [here](https://pan.baidu.com/s/1Q7CjGcgDpYZWnrRR1XzkFg?pwd=hjrt) (access passwd: hjrt) and you can run all the code in our ASDP repository
 
 **Method two**: you need to install drivers for GPU/neon/WM8731 
 
